@@ -1,0 +1,315 @@
+.button {
+    background-color: #6d1830;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn {
+    background-color: #6d1830;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn:hover {
+   background-color: #6d1830;
+   color: #ffffff;
+}
+
+.Star {
+    width: 50%;
+}
+
+.Imgbtn {
+    background-color: #6d1830;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+}
+
+.inputText {
+    width: 540px;
+    height: 12vh;
+    padding-left: 15px;
+}
+
+.Aboutbdc {
+    margin-right: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.pgLink {
+    text-decoration: none;
+    color: #6d1830;
+}
+
+.pglinkNumber {
+    text-decoration: none;
+    color: black;
+}
+
+.pglinkNumber:hover {
+    color: #6d1830;
+    border: 2px solid #e9e9e9;
+    border-radius: 7px;
+    border-width: 15px;
+    background-color: #e9e9e9;
+}
+
+.nav-link:hover {
+    color: #6d1830;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    font-weight: bold;
+}
+
+.rectangle {
+    width: 60%;
+    height: 44vh;
+    border-radius: 7px;
+}
+
+.border {
+    border-radius: 4px;
+}
+
+.best-feature {
+    border-top:  3px solid #6d1830;
+    border-right: 3px solid #6d1830;
+    border-radius: 13px;
+}
+
+.bg {
+    background-color: #fff9f2;
+}
+
+.hero {
+    height: 38vh;
+}
+
+.ourMission {
+   background-color: #14394c;
+   height: 42vh;
+   width: 56%;
+   border-radius: 7px;
+}
+
+.Crossphoneall {
+    margin-top: -52px;
+}
+
+.crossPhone {
+    display: none;
+}
+
+.Yes2 {
+    display: none;
+}
+
+.yesImage {
+    margin-top: -95px;
+}
+
+.Txtimg {
+    border-radius: 7px;
+}
+
+.blog-card {
+    width: 200%;
+}
+
+.imgButtons {
+    margin-left: 250px;
+    width: 46%;
+    padding-top: 0px;
+}
+
+.Avatar {
+    margin-left: 30px;
+}
+
+.amara {
+   margin-left: -300px;
+}
+
+.Articles {
+    margin-left: 150px;
+}
+
+.Pagination {
+    margin-left: 125px;
+}
+
+.immersiveText {
+    margin-left: -145px;
+    padding-top: 120px;
+}
+
+.inputMesg {
+    margin-left: -285px;
+}
+
+.Help {
+    border-radius: 7px;
+}
+
+.Link {
+    text-decoration: none;
+    color: black;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.card2 {
+    height: 48vh;
+    width: 21rem;
+    background-color: #fff9f2
+}
+
+@media only screen and (max-width: 990px) {
+    .btn {
+        display: none;
+    }
+
+    .inputText {
+        width: 95%;
+        height: 13vh;
+        padding-left: 5px;
+    }
+    
+    .crossPhone {
+        background-image: url(Images/Yes.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: block;
+        height: 48vh;
+    }
+
+    .yesImage {
+        display: none;
+    }
+
+    .rectangle {
+        height: 67vh;
+        width: 100%;
+    }
+
+    .Yes2 {
+        background-image: url(Images/Yes.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: block;
+        height: 34vh;
+    }
+
+    .ourMission {
+        height: 78vh;
+        width: 100%;
+    }
+
+    .Crossphoneall {
+        display: none;
+    }
+
+    .immersiveTxt {
+        padding-bottom: 78px;
+        margin-top: -45px;
+        text-align: center;
+    }
+
+    .frame {
+        display: none;
+    }
+
+    .textFaded {
+        padding-top: 15px;
+    }
+
+    .blog-card {
+        width: 100%;
+    }
+
+    .imgButtons {
+        margin-left: 0px;
+        width: 52%;
+        padding-top: 10px;
+    }
+    
+    .Avatar {
+        margin-left: 0px;
+    }  
+
+    .amara {
+        margin-left: 0px;
+    }
+
+    .Articles {
+        margin-left: 0px;
+    }
+
+    .Pagination {
+        margin-left: 0px;
+    }
+
+    .immersiveText {
+        margin-left: 0px;
+        margin-top: -170px;
+    }
+
+    .Imagepx {
+        display: none;
+    }
+
+    .inputMesg {
+        margin-left: 0px;
+    }
+
+    .card2 {
+        height: inherit;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    .Star {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .yesImage {
+        display: none;
+    }
+    
+    .rectangle {
+        height: 82vh;
+        width: 100%;
+    }
+}
+
+@media  screen and (max-width: 400px) {
+    .crossPhone {
+        background-image: url(Images/Yes.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: block;
+        height: 34vh;
+    }
+
+    .Yes2 {
+        background-image: url(Images/Yes.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: block;
+        height: 32vh;
+    }
+
+}
+.custom-tooltip {
+    --bs-tooltip-bg: var(--bd-violet-bg);
+    --bs-tooltip-color: var(--bs-white);
+  }
