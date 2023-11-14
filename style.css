@@ -181,39 +181,15 @@
         height: 13vh;
         padding-left: 5px;
     }
-    
-    .crossPhone {
-        background-image: url(Images/Yes.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        display: block;
-        height: 48vh;
-    }
-
-    .yesImage {
-        display: none;
-    }
 
     .rectangle {
         height: 67vh;
         width: 100%;
     }
 
-    .Yes2 {
-        background-image: url(Images/Yes.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-        display: block;
-        height: 34vh;
-    }
-
     .ourMission {
         height: 78vh;
         width: 100%;
-    }
-
-    .Crossphoneall {
-        display: none;
     }
 
     .immersiveTxt {
@@ -291,13 +267,13 @@
     }
 }
 
-@media  screen and (max-width: 400px) {
+@media  screen and (max-width: 999px) {
     .crossPhone {
         background-image: url(Images/Yes.png);
         background-size: cover;
         background-repeat: no-repeat;
         display: block;
-        height: 34vh;
+        height: 48vh;
     }
 
     .Yes2 {
@@ -305,11 +281,14 @@
         background-size: cover;
         background-repeat: no-repeat;
         display: block;
-        height: 32vh;
+        height: 35vh;
     }
 
+    .Crossphoneall {
+        display: none;
+    }
+
+    .yesImage {
+        display: none;
+    }
 }
-.custom-tooltip {
-    --bs-tooltip-bg: var(--bd-violet-bg);
-    --bs-tooltip-color: var(--bs-white);
-  }
