@@ -182,16 +182,6 @@
         padding-left: 5px;
     }
 
-    .rectangle {
-        height: 67vh;
-        width: 100%;
-    }
-
-    .ourMission {
-        height: 66vh;
-        width: 100%;
-    }
-
     .immersiveTxt {
         padding-bottom: 78px;
         margin-top: -45px;
@@ -281,7 +271,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         display: block;
-        height: 35vh;
+        height: 40vh;
     }
 
     .Crossphoneall {
@@ -291,4 +281,15 @@
     .yesImage {
         display: none;
     }
+
+    .ourMission {
+        height: 66vh;
+        width: 100%;
+    }
+
+    .rectangle {
+        height: 61vh;
+        width: 100%;
+    }
+
 }
